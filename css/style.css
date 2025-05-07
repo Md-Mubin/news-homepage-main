@@ -1,0 +1,250 @@
+/* =================== font family part =================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* =================== common css part =================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+:root{
+    --brandFont : font-family: "Inter", sans-serif;
+}
+
+body{
+    background: #fffdfa;
+}
+
+/* =================== navbar css part =================== */
+.navRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.navItems{
+    display: flex;
+    gap: 25px;
+}
+
+.navItems a{
+    padding: 5px;
+    position: relative;
+    font-family: var(--brandFont);
+    font-weight: 700;
+    font-size: 20px;
+    color: #5d5f79;
+    transition: all linear 0.3s;
+    background-image: linear-gradient(#f15e50);
+    background-repeat: no-repeat;
+    background-size: 0% 5%;
+    background-position: right bottom;
+    cursor: pointer;
+    transition: background-size 600ms, color 300ms;
+
+    &:hover{
+        background-size: 100% 5%;
+        background-position: left bottom;
+        color: #f15e50;
+        transition: background-size 300ms, color 300ms;
+    }
+}
+
+.navButton{
+    width: 70px;
+    height: 50px;
+    display: none;
+    border: none;
+    cursor: pointer;
+}
+
+.res_navItems{
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+    padding: 0 20px 20px;
+}
+
+.res_navItems a{
+    padding: 5px;
+    position: relative;
+    font-family: var(--brandFont);
+    font-weight: 700;
+    font-size: 20px;
+    color: #5d5f79;
+}
+
+/* =================== banner css part =================== */
+.bannerSec{
+    padding-bottom: 35px;
+}
+
+.bannerRow{
+    display: flex;
+    align-items: start;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.bannerInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bannerInfo article{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.bannerInfo article h1{
+    font-family: var(--brandFont);
+    font-size: 45px;
+    font-weight: 700;
+    width: 250px;
+}
+
+.bannerInfo article p{
+    font-family: var(--brandFont);
+    font-size: 20px;
+    font-weight: 300;
+    width: 600px;
+}
+
+.bannerInfo article button{
+    padding: 10px 40px;
+    border: none;
+    background-color: #f15e50;
+    margin-top: 20px;
+    font-family: var(--brandFont);
+    font-size: 25px;
+    font-weight: 500;
+    color: #fffdfa;
+    cursor: pointer;
+    transition: all linear 0.2s;
+
+    &:hover{
+        transform: translateY(-2px);
+        box-shadow: 4px 4px 8px #f15e50;
+    }
+}
+
+.bannerImg img{
+    width: 100%;
+}
+
+.bannerNewCol{
+    width: 520px;
+    padding: 25px;
+    background-color: #00001a;
+}
+
+.bannerNewCol h2{
+    font-family: var(--brandFont);
+    font-weight: 700;
+    font-size: 40px;
+    color: #e9ab53;
+    margin-bottom: 20px;
+}
+
+.bannerNewColInfo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #c5c6ce;
+
+    &:nth-of-type(1){
+        border-top: none;
+    }
+}
+
+.bannerNewColInfo h3{
+    font-family: var(--brandFont);
+    font-size: 25px;
+    font-weight: 700;
+    color: #fffdfa;
+}
+
+.bannerNewColInfo p{
+    font-family: var(--brandFont);
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #c5c6ce;
+}
+
+.cardsRow{
+    display: flex;
+    gap: 70px;
+    margin-top: 40px;
+}
+
+.cards{
+    display: flex;
+    gap: 10px;
+    font-family: var(--brandFont);
+    transition: all linear 0.3s;
+    background-image: linear-gradient(#e9ab53);
+    background-repeat: no-repeat;
+    background-size: 0% 1%;
+    background-position: right bottom;
+    cursor: pointer;
+    transition: background-size 600ms, color 300ms;
+
+    &:hover{
+        background-size: 100% 1%;
+        background-position: left bottom;
+        color: #e9ab53;
+        transition: background-size 300ms, color 300ms;
+    }
+}
+
+.cards img{
+    width: 150px;
+    height: 150px;
+}
+
+.cards ul li:nth-of-type(1){
+    font-size: 30px;
+    font-weight: 700;
+    color: #e9ab53;
+}
+
+.cards ul li:nth-of-type(2){
+    font-size: 22px;
+    font-weight: 700;
+    color: #00001a;
+    margin-top: 10px;
+}
+
+.cards ul li:nth-of-type(3){
+    font-size: 18px;
+    font-weight: 500;
+    color: #5d5f79;
+    margin-top: 10px;
+}
+
+/* =================== footer css part =================== */
+footer{
+    text-align: center;
+}

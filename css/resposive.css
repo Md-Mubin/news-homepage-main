@@ -1,0 +1,271 @@
+/* ------------------------------------------------------------------------------ */
+/* =================== Extra Small Responsive Css Part Start =================== */
+
+@media (max-width: 575.98px) {
+
+    .container{
+        width: 100%;
+        padding-inline: 10px;
+    }
+
+    .navRow {
+        justify-content: space-between;
+    }
+
+    .logoPart{
+        display: flex;
+    }
+
+    .navItems{
+        display: none;
+    }
+
+    .navButton{
+        display: block;
+    }
+
+    .bannerInfo article{
+        flex-direction: column;
+    }
+
+    .bannerInfo article h1{
+        width: 100%;
+    }
+
+    .bannerInfo article p{
+        width: 100%;
+    }
+
+    .bannerNewCol{
+        width: 100%;
+    }
+
+    .bannerRow{
+        flex-direction: column;
+    }
+
+    .cardsRow{
+        flex-direction: column;
+    }
+}
+
+/* =================== Extra Small Responsive Css Part End =================== */
+/* -------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------ */
+/* =================== Small Responsive Css Part Start =================== */
+
+@media (min-width: 576px) and (max-width: 767.98px){
+
+    .container{
+        width: 100%;
+        padding-inline: 10px;
+    }
+
+    .navRow {
+        justify-content: space-between;
+    }
+
+    .logoPart{
+        display: flex;
+    }
+
+    .navItems{
+        display: none;
+    }
+
+    .navButton{
+        display: block;
+    }
+
+    .bannerInfo article{
+        flex-direction: column;
+    }
+
+    .bannerInfo article h1{
+        width: 100%;
+    }
+
+    .bannerInfo article p{
+        width: 100%;
+    }
+
+    .bannerNewCol{
+        width: 100%;
+    }
+
+    .bannerRow{
+        flex-direction: column;
+    }
+
+    .cardsRow{
+        flex-direction: column;
+    }
+}
+
+/* =================== Small Responsive Css Part End =================== */
+/* -------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------- */
+/* =================== Medium Responsive Css Part Start =================== */
+
+@media(min-width:768px) and (max-width: 991.98px){
+
+    .container{
+        width: 100%;
+        padding-inline: 15px;
+    }
+
+    .navRow {
+        justify-content: space-between;
+    }
+
+    .logoPart{
+        display: flex;
+    }
+
+    .navItems{
+        display: none;
+    }
+
+    .navButton{
+        display: block;
+    }
+
+    .bannerInfo article{
+        flex-direction: column;
+    }
+
+    .bannerInfo article h1{
+        width: 100%;
+    }
+
+    .bannerInfo article p{
+        width: 100%;
+    }
+
+    .bannerNewCol{
+        width: 100%;
+    }
+
+    .bannerRow{
+        flex-direction: column;
+    }
+
+    .cardsRow{
+        flex-direction: column;
+    }
+}
+
+/* =================== Medium Responsive Css Part End =================== */
+/* --------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------ */
+/* =================== Large Responsive Css Part Start =================== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+
+    .container{
+        width: 100%;
+        padding-inline: 25px;
+    }
+
+    .navRow {
+        justify-content: space-between;
+    }
+
+    .logoPart{
+        display: flex;
+    }
+
+    .navButton{
+        display: none;
+    }
+
+    .bannerInfo article{
+        flex-direction: column;
+    }
+
+    .bannerInfo article h1{
+        width: 100%;
+    }
+
+    .bannerInfo article p{
+        width: 100%;
+    }
+
+    .bannerNewCol{
+        width: 100%;
+    }
+
+    .bannerRow{
+        flex-direction: column;
+    }
+
+    .cardsRow{
+        flex-direction: column;
+    }
+}
+
+/* =================== Large Responsive Css Part End =================== */
+/* -------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------ */
+/* =================== Extra Large Responsive Css Part Start =================== */
+
+@media(min-width: 1200px) and (max-width: 1399.98px){
+
+    .container{
+        width: 100%;
+        padding-inline: 80px;
+    }
+
+    .navButton{
+        display: none !important;
+    }
+
+    .navRow {
+        justify-content: space-between;
+    }
+
+    .logoPart{
+        display: flex;
+    }
+
+    .navButton{
+        display: block;
+    }
+
+    .bannerInfo article{
+        flex-direction: column;
+    }
+
+    .bannerInfo article h1{
+        width: 100%;
+    }
+
+    .bannerInfo article p{
+        width: 100%;
+    }
+
+    .bannerNewCol{
+        width: 100%;
+    }
+
+    .bannerRow{
+        flex-direction: column;
+    }
+
+    .cardsRow{
+        flex-direction: column;
+    }
+}
+
+/* =================== Extra Large Responsive Css Part End =================== */
+/* -------------------------------------------------------------------------- */
+
+@media(min-width: 1400px) and (max-width: 1440px){
+    .container{
+        padding-inline: 50px;
+    }
+} 
