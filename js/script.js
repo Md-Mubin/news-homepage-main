@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.close_nav').style.display = 'none';
 });
 
-// nav button click event
+// nav button click event 
 navButton.addEventListener('click', () => {
     res_navItems.classList.toggle('active');
     const isOpen = res_navItems.classList.contains('active');
